@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from freelancer_project.libs.manage_yaml import open_yaml
+from libs.manage_yaml import open_yaml
 
 
 def check_connection(url: str) -> [bool, str]:

@@ -1,9 +1,9 @@
 from time import sleep
 
-from freelancer_project.libs.host import Host
-from freelancer_project.libs.host import check_connection
-from freelancer_project.libs.manage_yaml import open_yaml
-from freelancer_project.libs.read_excel import write_to_excel
+from libs.host import Host
+from libs.host import check_connection
+from libs.manage_yaml import open_yaml
+from libs.read_excel import write_to_excel
 
 
 class Main:
