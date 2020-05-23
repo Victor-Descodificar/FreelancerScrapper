@@ -1,0 +1,19 @@
+login_page:
+  user: //input[@type='email']
+  password: //input[@type='password']
+  login_button: //button[@type='submit']
+
+main_page:
+  browser_button: //button[@type='button']
+
+  main_page_title: Login to Hire Freelancers & Find Work | Freelancer
+
+project_page:
+  search_project: keyword-input
+  projects_list: //div[@class='JobSearchCard-item ']
+
+freelancer_page:
+  url_1: https://www.freelancer.com/login
+  url_2: https://www.freelancer.com/search/projects/
+
+chrome_path: \\resources\\chromedriver.exe
